@@ -1,4 +1,4 @@
-# Bienvenu à l'espace github du Château Champs-sur-Marne
+# Bienvenue à l'espace github du Château Champs-sur-Marne
 
 Visitez mon site live à l'adresse : 
 https://alexgbewezoun.github.io/chateauduchampssurmane/
