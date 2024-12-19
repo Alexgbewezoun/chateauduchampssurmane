@@ -59,4 +59,85 @@
         }
 
         iframe {
-            width:
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+
+        .video-card {
+            background-color: #34495e; /* Contraste avec le fond */
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .video-description {
+            margin-top: 10px;
+            text-align: center;
+            color: lightgrey;
+        }
+
+        /* Footer Navigation */
+        .navigation {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation a {
+            color: #FFD700;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Vidéo du Château de Champs-sur-Marne <i class="fa-solid fa-music"></i></h1>
+        <p style="text-align: center;">
+            Découvrez le Château de Champs-sur-Marne à travers ces vidéos captivantes. Explorez son histoire, son architecture exceptionnelle et ses jardins remarquables.
+        </p>
+
+        <!-- Videos in a Grid Layout -->
+        <div class="video-section">
+            <!-- Vidéo 1 -->
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/YvNJfpJEbdg" title="Présentation générale du Château de Champs-sur-Marne"></iframe>
+                <p class="video-description">Une vue d'ensemble sur le Château et son environnement.</p>
+            </div>
+
+            <!-- Vidéo 2 -->
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/jAl_2YvT5-o" title="Les Jardins du Château de Champs-sur-Marne"></iframe>
+                <p class="video-description">Découvrez les magnifiques jardins à la française qui entourent le château.</p>
+            </div>
+
+            <!-- Vidéo 3 -->
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/0L00M5QuI78" title="L'histoire fascinante du Château"></iframe>
+                <p class="video-description">Plongez dans l'histoire du Château et découvrez ses illustres occupants.</p>
+            </div>
+
+            <!-- Vidéo 4 -->
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/03be0zzByBc" title="Chef-d'œuvre architectural"></iframe>
+                <p class="video-description">Admirez les détails architecturaux et les intérieurs somptueux du château.</p>
+            </div>
+        </div>
+
+        <p style="text-align: center;">
+            <i class="fa-solid fa-link"></i>
+            <a href="https://www.chateau-champs-sur-marne.fr" target="_blank">Visitez le site officiel du Château</a>
+            <br>
+            <button onclick="window.location.href='https://www.chateau-champs-sur-marne.fr'">Accéder au site officiel</button>
+        </p>
+    </div>
+
+    <!-- Footer Navigation -->
+    <div class="navigation">
+        <p><a href="index.html">Retour à la page d'accueil</a></p>
+        <p><a href="s02e02-classes.html">En savoir plus sur le Château de Champs-sur-Marne</a></p>
+    </div>
+</body>
+</html>
