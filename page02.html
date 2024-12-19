@@ -1,69 +1,120 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 2 - Vidéo du Château de champs-sur-marne</title>
+    <title>Vidéo - Château de Champs-sur-Marne</title>
     <link rel="icon" href="favicon.png" sizes="30x30" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
     <style>
         body {
             background-color: brown;
-
-            margin: 50px;
-            font-family: Arial;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: white;
         }
 
         h1 {
-            color: #FFFFFF;
+            color: #FFD700;
+            text-align: center;
         }
 
         p {
             color: lightgrey;
+            margin-bottom: 15px;
         }
 
         iframe {
-            transform: rotate(180deg);
-        }
-        iframe:hover {
-            transform: rotate(0deg);
-          transition:transform 1s;
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            display: block;
+            margin: 20px auto;
+            border: none;
         }
 
-        .playwrite-de-grund {
-            font-family: "Playwrite DE Grund", cursive;
-            font-optical-sizing: auto;
-            font-weight: <weight>;
-            font-style: normal;
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #FFD700;
+            color: brown;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        button:hover {
+            background-color: #FFA500;
+        }
+
+        .fa-link {
+            margin-right: 5px;
+        }
+
+        .video-description {
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 20px;
+            color: lightgrey;
+        }
+
+        .navigation {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation a {
+            color: #FFD700;
         }
     </style>
 </head>
-<body class="playwrite-de-grund">
+<body>
     <div>
-        <h1>Vidéo du Château de champs-sur-marne<i class="fa-solid fa-music"></i></h1>
+        <h1>Vidéo du Château de Champs-sur-Marne <i class="fa-solid fa-music"></i></h1>
         <p>   
-       Le Château de Champs-sur-Marne, construit au début du XVIIIe siècle, est un bel exemple d'architecture classique française. Il a accueilli des figures illustres comme la marquise de Pompadour et les ducs de La Vallière. Ce château, entouré de magnifiques jardins à la française, est célèbre pour ses décors raffinés et son parc de 85 hectares, classé parmi les « Jardins Remarquables ». Restauré au XIXe siècle par Louis Cahen d'Anvers, il est aujourd'hui un monument accessible au public et un lieu de tournage pour de nombreux films.
+            Découvrez le Château de Champs-sur-Marne à travers ces vidéos captivantes. Explorez son histoire, son architecture exceptionnelle et ses jardins remarquables. Ce lieu emblématique du patrimoine français vous transporte au cœur du XVIIIe siècle.
         </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0L00M5QuI78?si=e9fb3FiXpckM735H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7L8O15040Fk?si=YgXyjMt3H6qgyE6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Vidéo 1 -->
+        <iframe src="https://www.youtube.com/embed/YvNJfpJEbdg" title="Présentation générale du Château de Champs-sur-Marne"></iframe>
+        <p class="video-description">Une vue d'ensemble sur le Château et son environnement.</p>
+
+        <!-- Vidéo 2 -->
+        <iframe src="https://www.youtube.com/embed/jAl_2YvT5-o" title="Les Jardins du Château de Champs-sur-Marne"></iframe>
+        <p class="video-description">Découvrez les magnifiques jardins à la française qui entourent le château.</p>
+
+        <!-- Vidéo 3 -->
+        <iframe src="https://www.youtube.com/embed/0L00M5QuI78" title="L'histoire fascinante du Château"></iframe>
+        <p class="video-description">Plongez dans l'histoire du Château et découvrez ses illustres occupants.</p>
+
+        <!-- Vidéo 4 -->
+        <iframe src="https://www.youtube.com/embed/03be0zzByBc" title="Chef-d'œuvre architectural"></iframe>
+        <p class="video-description">Admirez les détails architecturaux et les intérieurs somptueux du château.</p>
+
         <p>
             <i class="fa-solid fa-link"></i>
-            <a href="https://www.chateau-champs-sur-marne.fr">Château de champs-sur-marne</a>
-            <button onclick="https://www.chateau-champs-sur-marne.fr">Allez sur le site de Château de champs-sur-marne</button>
+            <a href="https://www.chateau-champs-sur-marne.fr" target="_blank">Visitez le site officiel du Château</a>
+            <br>
+            <button onclick="window.location.href='https://www.chateau-champs-sur-marne.fr'">Accéder au site officiel</button>
         </p>
     </div>
 
-    <div>
-        Navigation :
+    <!-- Navigation -->
+    <div class="navigation">
         <p><a href="index.html">Retour à la page d'accueil</a></p>
-        <p><a href="s02e02-classes.html">Tout savoir sur le château de Champs-sur-Marne</a></p>
+        <p><a href="s02e02-classes.html">En savoir plus sur le Château de Champs-sur-Marne</a></p>
     </div>
-    
-    
-
 </body>
 </html>
-
