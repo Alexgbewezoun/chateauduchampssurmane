@@ -30,6 +30,12 @@
             border-radius: 8px;
         }
 
+        /* Effet de rotation sur la première vidéo */
+        .rotate-video:hover {
+            transform: rotate(360deg);
+            transition: transform 1s ease-in-out;
+        }
+
         /* Centrer les vidéos YouTube */
         .video-container {
             display: flex;
@@ -69,9 +75,9 @@
             accessible au public et un lieu de tournage pour de nombreux films.
         </p>
 
-        <!-- Première vidéo, centrée -->
+        <!-- Première vidéo avec rotation -->
         <div class="video-container">
-            <iframe width="560" height="315" 
+            <iframe class="rotate-video" width="560" height="315" 
                 src="https://www.youtube.com/embed/0L00M5QuI78?si=e9fb3FiXpckM735H" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -93,7 +99,7 @@
             C'est une occasion parfaite de se plonger dans l'atmosphère sereine et majestueuse de ce lieu classé, tout en appréciant sa végétation luxuriante et ses éléments paysagers uniques.
         </p>
 
-        <!-- Deuxième vidéo, centrée -->
+        <!-- Deuxième vidéo sans rotation -->
         <div class="video-container">
             <iframe width="560" height="315" 
                 src="https://www.youtube.com/embed/7L8O15040Fk?si=YgXyjMt3H6qgyE6J" 
