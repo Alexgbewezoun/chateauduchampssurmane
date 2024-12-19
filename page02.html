@@ -30,6 +30,18 @@
             border-radius: 8px;
         }
 
+        /* Centrer les vidéos YouTube */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        /* Pivoter une vidéo dans le sens inverse */
+        .rotated-video {
+            transform: rotate(-10deg);
+        }
+
         .playwrite-de-grund {
             font-family: "Playwrite DE Grund", cursive;
             font-optical-sizing: auto;
@@ -62,15 +74,17 @@
             accessible au public et un lieu de tournage pour de nombreux films.
         </p>
 
-        <!-- Première vidéo -->
-        <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/0L00M5QuI78?si=e9fb3FiXpckM735H" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
+        <!-- Première vidéo, centrée -->
+        <div class="video-container">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/0L00M5QuI78?si=e9fb3FiXpckM735H" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
 
         <!-- Texte avant la deuxième vidéo -->
         <p><strong>Voici une autre vidéo qui vous montrera davantage de détails sur le Château de Champs-sur-Marne :</strong></p>
@@ -84,15 +98,17 @@
             C'est une occasion parfaite de se plonger dans l'atmosphère sereine et majestueuse de ce lieu classé, tout en appréciant sa végétation luxuriante et ses éléments paysagers uniques.
         </p>
 
-        <!-- Deuxième vidéo -->
-        <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/7L8O15040Fk?si=YgXyjMt3H6qgyE6J" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-        </iframe>
+        <!-- Deuxième vidéo, centrée et pivotée -->
+        <div class="video-container">
+            <iframe class="rotated-video" width="560" height="315" 
+                src="https://www.youtube.com/embed/7L8O15040Fk?si=YgXyjMt3H6qgyE6J" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </div>
 
     <!-- Lien vers le site officiel -->
