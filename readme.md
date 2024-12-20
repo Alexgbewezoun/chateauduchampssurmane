@@ -1,7 +1,13 @@
-# Bienvenue à l'espace github du Château Champs-sur-Marne
+# Devoir de DESIGN de l'INFORMATION
 
-Visitez mon site live à l'adresse : 
+
+### Membres du groupe :
+
+- Amoussou Grâce
+- Gbewezoun Alex
+
+Visitez notre site live à l'adresse : 
 https://alexgbewezoun.github.io/chateauduchampssurmane/
 
-31 rue de Paris, 77420 Champs sur Marne.
+
 
