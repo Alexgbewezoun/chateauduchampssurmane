@@ -9,5 +9,5 @@
 Visitez notre site live à l'adresse : 
 https://alexgbewezoun.github.io/chateauduchampssurmane/
 
-# M2 GSI,  PARIS 8 2024 - 2025
+# M2 GSI,  PARIS8   2024 - 2025
 
