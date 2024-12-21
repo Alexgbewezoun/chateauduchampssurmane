@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
     <style>
+
+        script src="https://code.responsivevoice.org/responsivevoice.js"></script>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -86,7 +88,9 @@
 </head>
 <body class="playwrite-de-grund">
     <div>
-        <h1>Vidéo du <span class="chateau">Château</span> de <span class="champs-sur-marne">Champs-sur-Marne</span><i class="fa-solid fa-music"></i></h1>
+        <h1>
+            Vidéo du <span class="chateau">Château</span> de <span class="champs-sur-marne">Champs-sur-Marne</span><i onclick="responsiveVoice.speak('Histoire de Paris 8', 'French Female');" class="fa-solid fa-circle-play"></i>
+        </h1>
         <p>
             Le <span class="chateau">Château</span> de <span class="champs-sur-marne">Champs-sur-Marne</span>, construit au début du XVIIIe siècle, est un bel exemple d'architecture classique française. 
             Il a accueilli des figures illustres comme la marquise de Pompadour et les ducs de La Vallière. 
